@@ -27,7 +27,7 @@ export default function ExpenseTracker() {
           <h2 className="text-4xl font-mono font-bold">${total}</h2>
         </div>
 
-        <form onSubmit={addTransaction} className="space-y-4 mb-8">
+        <form onSubmit  ={addTransaction} className="space-y-4 mb-8">
           <div>
             <label className="text-xs font-bold text-slate-500 uppercase ml-1">Description</label>
             <input className="w-full p-4 bg-slate-100 rounded-xl outline-none focus:ring-2 focus:ring-blue-500 transition-all mt-1" placeholder="e.g. Coffee" value={text} onChange={(e) => setText(e.target.value)} />
